@@ -1,0 +1,37 @@
+:root {
+   --background: #004643;
+   --headline: #fffffe;
+   --stroke: #001e1d;
+}
+
+* {
+    margin: 0;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--background);
+    padding: 20px 0;
+    font-size: 20px;
+    border-bottom: 1px solid var(--stroke);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    font-family: serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: var(--headline)
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
